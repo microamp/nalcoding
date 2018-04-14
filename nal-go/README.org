@@ -1,0 +1,28 @@
+* nal-go
+
+** Requirements
+   - Tooling
+     #+BEGIN_SRC bash
+go get -u -v github.com/nsf/gocode
+     #+END_SRC
+     #+BEGIN_SRC bash
+go get -u -v github.com/rogpeppe/godef
+     #+END_SRC
+     #+BEGIN_SRC bash
+go get -u -v github.com/golang/lint/golint
+     #+END_SRC
+     #+BEGIN_SRC bash
+go get -u -v github.com/kisielk/errcheck
+     #+END_SRC
+     #+BEGIN_SRC bash
+go get -u -v github.com/mdempsky/unconvert
+     #+END_SRC
+     #+BEGIN_SRC bash
+go get -u -v golang.org/x/tools/...
+     #+END_SRC
+     #+BEGIN_SRC bash
+go get -u -v honnef.co/go/tools/...
+     #+END_SRC
+     #+BEGIN_SRC bash
+go get -u -v github.com/golangci/golangci-lint/cmd/golangci-lint
+     #+END_SRC

@@ -1,0 +1,30 @@
+* nal-py
+
+** Requirements
+   - Virtualenv
+     #+BEGIN_SRC bash
+virtualenv .venv
+     #+END_SRC
+   - Dependencies (dev)
+     #+BEGIN_SRC bash
+pip install -r requirements.txt
+     #+END_SRC
+
+** Quick Start
+   1. Activate ~.venv~
+      #+BEGIN_SRC
+M-x pyvenv-activate .venv RET
+      #+END_SRC
+   2. Open ~main.py~ in Emacs
+      #+BEGIN_SRC
+C-x C-f main.py RET
+      #+END_SRC
+   3. Enable ~yapf-mode~
+      #+BEGIN_SRC
+M-x yapf-mode RET
+      #+END_SRC
+   4. Run a REPL session
+      #+BEGIN_SRC
+C-c C-p
+      #+END_SRC
+   5. Start hacking

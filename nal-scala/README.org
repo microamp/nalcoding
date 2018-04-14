@@ -1,0 +1,27 @@
+* nal-scala
+
+** Requirements
+   - sbt
+     #+BEGIN_SRC bash
+pacman -S sbt
+     #+END_SRC
+   - ENSIME plugin
+     #+BEGIN_SRC bash
+mkdir -p $HOME/.sbt/1.0/plugins
+echo 'addSbtPlugin("org.ensime" % "sbt-ensime" % "2.5.1")' > $HOME/.sbt/1.0/plugins
+     #+END_SRC
+
+** Quick Start
+   1. Generate ~.ensime~
+      #+BEGIN_SRC bash
+sbt ensimeConfig
+      #+END_SRC
+   2. Start an ENSIME server and connect to it from Emacs
+      #+BEGIN_SRC
+M-x ensime RET
+      #+END_SRC
+   3. Start a REPL session
+      #+BEGIN_SRC
+C-c C-v z
+      #+END_SRC
+   4. Start hacking
