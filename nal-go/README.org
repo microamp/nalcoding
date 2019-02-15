@@ -26,3 +26,6 @@ go get -u -v honnef.co/go/tools/...
      #+BEGIN_SRC bash
 go get -u -v github.com/golangci/golangci-lint/cmd/golangci-lint
      #+END_SRC
+     #+begin_src bash
+       go get -u github.com/golang/dep/cmd/dep
+     #+end_src
